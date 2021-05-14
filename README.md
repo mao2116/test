@@ -3,3 +3,5 @@
 <a href="https://github.com/noob-hackers"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 http://github.com - automatic!
 [GitHub](http://github.com)
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
