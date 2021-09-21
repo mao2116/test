@@ -11,7 +11,7 @@ def login():
     print('USER NOT FOUND PLZ RESISTER')
     RESISTERdef()
 def RESISTERdef():
-    mao1=open("mao.json","r")
+    mao1=open("tahsan.json","r")
     mao1=json.load(mao1)
     nameUser=input("Enter Name :")
     usrid=input("Enter Userid :")
