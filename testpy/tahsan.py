@@ -2,7 +2,7 @@
 import json,os
 
 def login():
-  mao1=open("mao.json","r")
+  mao1=open("tahsan.json","r")
   mao1=json.load(mao1)
   userid=input('User Id:')
   if (mao1["id"].get(userid, False)):
