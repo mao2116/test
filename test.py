@@ -1,7 +1,7 @@
 from pyfiglet import figlet_format
 from termcolor import colored
 import sys,time
-x = input("You Text")
+x = input("You Text :")
 x = figlet_format(x, 'slant')
 x = colored(x, 'cyan')
 
