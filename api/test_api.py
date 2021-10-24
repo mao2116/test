@@ -4256,9 +4256,9 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
         else:
           pass
         
-  except KeyboardInterrupt:
-    time.sleep(0.3)
-    exit(f"\n{acl}[{rcl} !{acl} ]{rcl} ABORTING... {acl}[{rcl} !{acl} ]\n")
-    time.sleep(0.09)
+  #except KeyboardInterrupt:
+    #time.sleep(0.3)
+    #exit(f"\n{acl}[{rcl} !{acl} ]{rcl} ABORTING... {acl}[{rcl} !{acl} ]\n")
+    #time.sleep(0.09)
   #except:
       #pass
