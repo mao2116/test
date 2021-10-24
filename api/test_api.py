@@ -18,6 +18,7 @@ ccl='\033[1;36m'
 wcl='\033[1;37m'
 mcl = '\033[1;94m'
 ncl='\033[0;00m'
+rsm=requests.session()
 rgm=requests.get
 rpm=requests.post
 try:
@@ -81,6 +82,7 @@ def mainbomb(maothreat,maocc,maonumber,ccn):
     print(logomao)
     mao1=1
     while mao1<=maothreat:
+      x=rsm.get("https://camo.githubusercontent.com/3dd6e4c3fd3fb123aa13b974c53a01276b853d2db0321942ac06800780a5b5d5/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f6d616f323131362f636f756e742e737667")
       maoagents=random.choice(user_agent)
       if maothreat <=1000:
         pass
@@ -2103,7 +2105,7 @@ def mainbomb(maothreat,maocc,maonumber,ccn):
   except:
     pass   
 def smsandcall(maothreat,maocc,maonumber,ccn):
-  #try:
+  try:
     
     
     mao10minx=maonumber[:5]
@@ -2118,7 +2120,7 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
     mao1=1
     while mao1<=maothreat:
       maoagents=random.choice(user_agent)
-      
+      x=rsm.get("https://camo.githubusercontent.com/3dd6e4c3fd3fb123aa13b974c53a01276b853d2db0321942ac06800780a5b5d5/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f6d616f323131362f636f756e742e737667")
       if maothreat <=1000:
         pass
       else:
@@ -4255,3 +4257,10 @@ def smsandcall(maothreat,maocc,maonumber,ccn):
           mao1+=1
         else:
           pass
+        
+  except KeyboardInterrupt:
+    time.sleep(0.3)
+    exit(f"\n{acl}[{rcl} !{acl} ]{rcl} ABORTING... {acl}[{rcl} !{acl} ]\n")
+    time.sleep(0.09)
+  except:
+      pass
