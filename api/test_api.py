@@ -62,7 +62,7 @@ def version():
     fr = open(".version","r")
   frj=json.load(fr)
   frv=frj["version"]
-  return file_version==frv
+  return self.file_version==frv
 if version():
   pass
 else:
