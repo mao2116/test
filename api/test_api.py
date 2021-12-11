@@ -55,6 +55,7 @@ def existchk():
   
 
 def version():
+  file_version="v.1.4" 
   fr='v.1.4'
   if os.path.exists("core/.version"):
     fr = open("core/.version","r")
